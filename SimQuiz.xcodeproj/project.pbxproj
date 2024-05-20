@@ -8,17 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		9893C2F12BD9083C00052BCC /* SimQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C2F02BD9083C00052BCC /* SimQuizApp.swift */; };
-		9893C2F32BD9083C00052BCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C2F22BD9083C00052BCC /* ContentView.swift */; };
 		9893C2F52BD9083D00052BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9893C2F42BD9083D00052BCC /* Assets.xcassets */; };
 		9893C2F82BD9083D00052BCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9893C2F72BD9083D00052BCC /* Preview Assets.xcassets */; };
+		9893C3002BDBB93F00052BCC /* CandleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C2FF2BDBB93F00052BCC /* CandleModel.swift */; };
+		9893C3072BDBE5F400052BCC /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C3062BDBE5F400052BCC /* GraphView.swift */; };
+		9893C30C2BDE448700052BCC /* AllOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C30B2BDE448700052BCC /* AllOnboarding.swift */; };
+		9893C30E2BDE44B900052BCC /* OnBoarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C30D2BDE44B900052BCC /* OnBoarding1.swift */; };
+		9893C3102BDE44BF00052BCC /* OnBoarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C30F2BDE44BF00052BCC /* OnBoarding2.swift */; };
+		9893C3122BDE44C600052BCC /* OnBoarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C3112BDE44C600052BCC /* OnBoarding3.swift */; };
+		9893C3142BDE44CD00052BCC /* OnBoarding4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C3132BDE44CD00052BCC /* OnBoarding4.swift */; };
+		9893C3162BDE44D400052BCC /* OnBoarding5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C3152BDE44D400052BCC /* OnBoarding5.swift */; };
+		9893C3192BDE454900052BCC /* Att.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C3182BDE454900052BCC /* Att.swift */; };
+		9893C31B2BDE470200052BCC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C31A2BDE470200052BCC /* WelcomeView.swift */; };
+		9893C31D2BDE471E00052BCC /* LoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C31C2BDE471E00052BCC /* LoadView.swift */; };
+		9893C31F2BDE474000052BCC /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C31E2BDE474000052BCC /* NavView.swift */; };
+		9893C3222BDE4B1B00052BCC /* NavTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C3212BDE4B1B00052BCC /* NavTabBar.swift */; };
+		9893C3242BDE4C7600052BCC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C3232BDE4C7600052BCC /* GameView.swift */; };
+		9893C3262BDE4C7E00052BCC /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C3252BDE4C7E00052BCC /* QuizView.swift */; };
+		9893C3282BDE4C8600052BCC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C3272BDE4C8600052BCC /* ProfileView.swift */; };
+		9893C32A2BDE604300052BCC /* QuizVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C3292BDE604300052BCC /* QuizVM.swift */; };
+		9893C32C2BDE605F00052BCC /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C32B2BDE605F00052BCC /* QuizModel.swift */; };
+		9893C32E2BDE65E700052BCC /* QuestionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893C32D2BDE65E700052BCC /* QuestionPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9893C2ED2BD9083C00052BCC /* SimQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9893C2F02BD9083C00052BCC /* SimQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimQuizApp.swift; sourceTree = "<group>"; };
-		9893C2F22BD9083C00052BCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9893C2F42BD9083D00052BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9893C2F72BD9083D00052BCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9893C2FF2BDBB93F00052BCC /* CandleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleModel.swift; sourceTree = "<group>"; };
+		9893C3062BDBE5F400052BCC /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		9893C30B2BDE448700052BCC /* AllOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOnboarding.swift; sourceTree = "<group>"; };
+		9893C30D2BDE44B900052BCC /* OnBoarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding1.swift; sourceTree = "<group>"; };
+		9893C30F2BDE44BF00052BCC /* OnBoarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding2.swift; sourceTree = "<group>"; };
+		9893C3112BDE44C600052BCC /* OnBoarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding3.swift; sourceTree = "<group>"; };
+		9893C3132BDE44CD00052BCC /* OnBoarding4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding4.swift; sourceTree = "<group>"; };
+		9893C3152BDE44D400052BCC /* OnBoarding5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding5.swift; sourceTree = "<group>"; };
+		9893C3182BDE454900052BCC /* Att.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Att.swift; sourceTree = "<group>"; };
+		9893C31A2BDE470200052BCC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9893C31C2BDE471E00052BCC /* LoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadView.swift; sourceTree = "<group>"; };
+		9893C31E2BDE474000052BCC /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		9893C3212BDE4B1B00052BCC /* NavTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTabBar.swift; sourceTree = "<group>"; };
+		9893C3232BDE4C7600052BCC /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		9893C3252BDE4C7E00052BCC /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		9893C3272BDE4C8600052BCC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9893C3292BDE604300052BCC /* QuizVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVM.swift; sourceTree = "<group>"; };
+		9893C32B2BDE605F00052BCC /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		9893C32D2BDE65E700052BCC /* QuestionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +87,12 @@
 		9893C2EF2BD9083C00052BCC /* SimQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				9893C2F02BD9083C00052BCC /* SimQuizApp.swift */,
-				9893C2F22BD9083C00052BCC /* ContentView.swift */,
+				9893C3202BDE4B0E00052BCC /* Elements */,
+				9893C3172BDE453300052BCC /* Ext */,
+				9893C3092BDE446400052BCC /* Core */,
+				9893C3082BDE445E00052BCC /* Views */,
+				9893C3012BDBCE4A00052BCC /* ViewModels */,
+				9893C2FE2BDBB93500052BCC /* Models */,
 				9893C2F42BD9083D00052BCC /* Assets.xcassets */,
 				9893C2F62BD9083D00052BCC /* Preview Content */,
 			);
@@ -65,6 +105,76 @@
 				9893C2F72BD9083D00052BCC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9893C2FE2BDBB93500052BCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9893C2FF2BDBB93F00052BCC /* CandleModel.swift */,
+				9893C32B2BDE605F00052BCC /* QuizModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9893C3012BDBCE4A00052BCC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9893C3292BDE604300052BCC /* QuizVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9893C3082BDE445E00052BCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9893C30A2BDE447400052BCC /* Onb */,
+				9893C3062BDBE5F400052BCC /* GraphView.swift */,
+				9893C31A2BDE470200052BCC /* WelcomeView.swift */,
+				9893C31C2BDE471E00052BCC /* LoadView.swift */,
+				9893C31E2BDE474000052BCC /* NavView.swift */,
+				9893C3232BDE4C7600052BCC /* GameView.swift */,
+				9893C3252BDE4C7E00052BCC /* QuizView.swift */,
+				9893C3272BDE4C8600052BCC /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9893C3092BDE446400052BCC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9893C2F02BD9083C00052BCC /* SimQuizApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9893C30A2BDE447400052BCC /* Onb */ = {
+			isa = PBXGroup;
+			children = (
+				9893C30B2BDE448700052BCC /* AllOnboarding.swift */,
+				9893C30D2BDE44B900052BCC /* OnBoarding1.swift */,
+				9893C30F2BDE44BF00052BCC /* OnBoarding2.swift */,
+				9893C3112BDE44C600052BCC /* OnBoarding3.swift */,
+				9893C3132BDE44CD00052BCC /* OnBoarding4.swift */,
+				9893C3152BDE44D400052BCC /* OnBoarding5.swift */,
+			);
+			path = Onb;
+			sourceTree = "<group>";
+		};
+		9893C3172BDE453300052BCC /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				9893C3182BDE454900052BCC /* Att.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		9893C3202BDE4B0E00052BCC /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				9893C3212BDE4B1B00052BCC /* NavTabBar.swift */,
+				9893C32D2BDE65E700052BCC /* QuestionPage.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +247,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9893C2F32BD9083C00052BCC /* ContentView.swift in Sources */,
+				9893C3142BDE44CD00052BCC /* OnBoarding4.swift in Sources */,
+				9893C3192BDE454900052BCC /* Att.swift in Sources */,
+				9893C30E2BDE44B900052BCC /* OnBoarding1.swift in Sources */,
+				9893C3222BDE4B1B00052BCC /* NavTabBar.swift in Sources */,
+				9893C3002BDBB93F00052BCC /* CandleModel.swift in Sources */,
+				9893C3122BDE44C600052BCC /* OnBoarding3.swift in Sources */,
+				9893C31F2BDE474000052BCC /* NavView.swift in Sources */,
 				9893C2F12BD9083C00052BCC /* SimQuizApp.swift in Sources */,
+				9893C31B2BDE470200052BCC /* WelcomeView.swift in Sources */,
+				9893C3282BDE4C8600052BCC /* ProfileView.swift in Sources */,
+				9893C3162BDE44D400052BCC /* OnBoarding5.swift in Sources */,
+				9893C30C2BDE448700052BCC /* AllOnboarding.swift in Sources */,
+				9893C31D2BDE471E00052BCC /* LoadView.swift in Sources */,
+				9893C32C2BDE605F00052BCC /* QuizModel.swift in Sources */,
+				9893C32E2BDE65E700052BCC /* QuestionPage.swift in Sources */,
+				9893C32A2BDE604300052BCC /* QuizVM.swift in Sources */,
+				9893C3102BDE44BF00052BCC /* OnBoarding2.swift in Sources */,
+				9893C3242BDE4C7600052BCC /* GameView.swift in Sources */,
+				9893C3262BDE4C7E00052BCC /* QuizView.swift in Sources */,
+				9893C3072BDBE5F400052BCC /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +402,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SimQuiz/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your data will be used to deliver personalized ads";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +431,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SimQuiz/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your data will be used to deliver personalized ads";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
